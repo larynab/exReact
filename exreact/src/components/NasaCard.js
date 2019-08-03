@@ -2,7 +2,7 @@ import React from "react";
 
 export default function NasaCard({ imgUrl }) {
   return (
-    <div style={{ maxWidth: "10px" }}>
+    <div>
       <img src={imgUrl} />
     </div>
   );
